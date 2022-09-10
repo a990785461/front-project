@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>车辆服务系统</title>
+    <SCRIPT type=text/javascript src="../js/jquery-3.5.1.min.js"></SCRIPT>
+    <script type=text/javascript src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/userIndex.css">
+</head>
+<body>
+    <!-- Image and text -->
+   
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="../image/btn01.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    车辆管理系统
+  </a>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html" target="center">首页</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="bookCar.html" target="center">在线预约用车</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="learnCar.html" target="center">在线预约学车</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="learnCar.html" target="center">近期公告</a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li> -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">我的账户</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="personalInfo.html" target="center">个人中心</a>
+        <a class="dropdown-item" href="useCarOrder.html" target="center">用车订单</a>
+        <a class="dropdown-item" href="learnCarOrder.html" target="center">学车订单</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">退出登陆</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
+      <!-- <div class="modal-body">
+        ...
+      </div> -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">确认退出</button> -->
+        <a  class="btn btn-primary" href="login.html">确认退出</a>
+      </div>
+    </div>
+  </div>
+</div>
+<iframe src="index.html" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"   name="center"></iframe>
+<!-- <iframe src="login.html" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"   name="center"></iframe> -->
+</body>
+</html>

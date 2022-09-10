@@ -1,0 +1,32 @@
+.btn-lg {
+    float: right;
+}
+.lead {
+    margin-top: 50px;
+}
+.center-1 {
+    text-align: center;
+}
+
+.top-1 {
+margin-top: 20px;
+}
+.table {
+    width: 400px;
+}
+.bottom-1 {
+    /* float: left; */
+}
+.left-bottom {
+    display: block;
+    float: left;
+    margin-right: 500px;
+}
+.bottom-center {
+    width: 800px;
+    float: left;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 51em;
+    /* margin-left: 500px; */
+}
