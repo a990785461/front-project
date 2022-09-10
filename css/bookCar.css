@@ -1,0 +1,27 @@
+body {
+    width: 2500px;
+}
+.col-sm-2 {
+    width: 100px;
+    flex: none;
+}
+.form-control {
+    width: 200px;
+}
+form {
+    margin-top: 20em;
+    margin-left: 73em;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+.btn-primary {
+    /* margin-left: 100px; */
+    width: 300px;
+}
+.breadcrumb{
+    background-color: transparent;
+}
+.custom-select {
+    width: 198px;
+}
